@@ -50,6 +50,7 @@ function App() {
       <input
         style={{ width: '100%', margin: '32px 0' }}
         onChange={(e) => setPrivateKeyString(e.target.value)}
+        type="password"
       />
 
       <button onClick={handleGenerate}>hello world</button>
